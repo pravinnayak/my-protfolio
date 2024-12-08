@@ -82,7 +82,8 @@ const ProjectCard = () => {
               }}
             >
               <Image
-                loading="lazy"
+                unoptimized={true}
+                loading="eager"
                 src={project.image}
                 alt={project.title}
                 width="200"
