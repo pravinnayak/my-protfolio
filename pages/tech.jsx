@@ -254,6 +254,7 @@ const tech = () => {
               <div className="basis-[30%] lg:basis-[25%] h-16 w-12 sm:h-20 sm:w-20 md:h-28 md:w-28 lg:h-32 lg:w-32 rounded-2xl ">
                 <div className="flex mx-auto rounded-2xl relative w-full h-full bg-white">
                   <Image
+                    unoptimized
                     src={data[idNumber].main}
                     alt="tech"
                     fill
@@ -294,8 +295,8 @@ const tech = () => {
                 alt={obj.title}
                 main={obj.main}
                 key={i}
-                changeId={()=>{
-                  changeId(i)
+                changeId={() => {
+                  changeId(i);
                 }}
               />
             );

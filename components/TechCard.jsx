@@ -11,6 +11,7 @@ const TechCard = (props) => {
     >
       <div className="h-full w-full p-2 md:p-3 lg:p-4 relative">
         <Image
+        unoptimized
           src={props.main}
           fill
           className="select-none group-hover:scale-[1.1] transition-all duration-700 object-contain p-2 md:p-3 rounded-lg md:rounded-xl lg:rounded-2xl"
