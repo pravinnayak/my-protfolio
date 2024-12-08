@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import webar from "@/public/work/webar.gif";
-import beautyWebar from "@/public/work/beautyWebar.gif";
-import eyewearWebAR from "@/public/work/eyewearWebAR.gif";
-import skinCareGif from "@/public/work/skincare.gif";
-import customizationStudio from "@/public/work/customizationStudio.gif";
-import radBeauty from "@/public/work/radBeauty.gif";
+import webar from "@/public/work/webar.webp";
+import beautyWebar from "@/public/work/beautyWebar.webp";
+import eyewearWebAR from "@/public/work/eyewearWebAR.webp";
+import skinCareGif from "@/public/work/skincare.webp";
+import customizationStudio from "@/public/work/customizationStudio.webp";
+import radBeauty from "@/public/work/radBeauty.webp";
 
 const ProjectCard = () => {
   const data = [
