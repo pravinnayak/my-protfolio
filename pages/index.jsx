@@ -13,6 +13,7 @@ import Avatar_White from "@/public/Avatar-white.svg";
 import BooBlack from "@/public/boo-black.svg";
 import BooWhite from "@/public/boo-white.svg";
 import Link from "next/link";
+import visitingCard from "@/public/Pravin.png"
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -24,6 +25,9 @@ export default function Home() {
       "%c Thanks for stopping by, I’m currently looking for better oppurtunities.",
       "color: #fff; background: #8000ff; padding:5px 0;",
     ]);
+    if(!visitingCard){
+      console.log("Visiting card missing")
+    }
   }, []);
 
   return (
