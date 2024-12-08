@@ -21,7 +21,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://pravinnayak.me/Pravin.png"
         />
 
         {/* <!-- Twitter --> */}
@@ -40,7 +40,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://pravinnayak.me/Pravin.png"
         />
 
         {/* whatsapp */}
@@ -53,7 +53,7 @@ export default function Document() {
         <meta
           property="og:image"
           itemProp="image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
+          content="https://pravinnayak.me/Pravin.png"
         />
         <meta property="og:type" content="website" />
 
